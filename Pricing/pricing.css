@@ -1,0 +1,123 @@
+html, body, div, ul, p, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+BODY, DIV, TH, TD, P, INPUT, SELECT, TEXTAREA, TT, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: MyriadPro, sans-serif;
+}
+
+body {
+	max-width: 1440px;
+	padding: 1.4% 0 1.4% 0;
+	margin: 0 auto;
+}
+
+table {
+	max-width: 931px;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #efefef;
+	margin: 0 auto;
+}
+
+th {
+	border: 1px solid #efefef;
+}
+
+.header {
+	background: #f9fafa;
+	padding: 10px;
+}
+
+.header_title {
+	padding: 10% 5% 2.5% 5%;
+	font-size: 150%;
+	
+}
+
+.header_subtitle {
+	padding: 2.5% 5% 10% 5%;
+	font-size: 90%;
+	font-weight: 400;
+}
+
+.monthly_price{
+	font-size: 90%;
+}
+
+.monthly_price,
+.table_title {
+	text-align: left;
+	padding: 1.5% 2% 1.5% 2%;
+	color: #939393;
+	font-weight: 400;
+	font-size: 90%;
+}
+
+.table_subtitle {
+	text-align: left;
+	padding: 0.5% 2% 0.5% 2%;
+}
+
+.standard,
+.professional,
+.enterprise {
+	max-width: 187px;
+	width: 20%;
+}
+
+
+.display {
+	display: inline-flex;
+	align-items: flex-start;
+}
+
+.price {
+	padding: 2% 1% 2% 1%;;
+	
+}
+
+.price_dollar {
+	font-size: 100%;
+	font-weight: 300;
+	padding-top: 10%;
+	margin-right: 3%;
+}
+
+.price_number {
+	font-size: 200%;
+}
+
+.call{
+	font-size: 200%;
+}
+
+.point {
+	display: inline-block;
+	align-self: center;
+	height: 0px;
+	width: 0px;
+	border: 6px solid #821a0f;
+	border-radius: 50%;
+}
+
+.table_title {
+	max-width: 372px;
+	width: 40%;
+	font-size: 90%;
+}
+
+.table_subtitle {
+	height: 30px;
+	background: #f9fafa;
+}
+
+
+.add_offer {
+	text-align: center;
+	padding: 1.5% 2% 1.5% 2%;
+	color: #939393;
+	font-weight: 400;
+	font-size: 90%;
+}
