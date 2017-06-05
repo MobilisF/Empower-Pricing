@@ -27,17 +27,17 @@ th {
 
 .header {
 	background: #f9fafa;
-	padding: 10px;
+	vertical-align: top;
 }
 
 .header_title {
-	padding: 10% 5% 2.5% 5%;
+	padding: 10px;
 	font-size: 150%;
 	
 }
 
 .header_subtitle {
-	padding: 2.5% 5% 10% 5%;
+	padding: 10px;
 	font-size: 90%;
 	font-weight: 400;
 }
@@ -81,7 +81,7 @@ th {
 .price_dollar {
 	font-size: 100%;
 	font-weight: 300;
-	padding-top: 10%;
+	padding-top: 6px;
 	margin-right: 3%;
 }
 
@@ -120,4 +120,8 @@ th {
 	color: #939393;
 	font-weight: 400;
 	font-size: 90%;
+}
+
+.mobile {
+	display: none;
 }
